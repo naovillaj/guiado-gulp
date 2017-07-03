@@ -21,6 +21,7 @@ var paths = {
 var sources = {
 	assets: config.source + paths.assets,
 	html: config.source + paths.html,
+	js: config.source + paths.js,
 	sass: paths.assets + paths.sass,
 	rootSass: config.source + paths.assets + paths.mainSass,
 	rootJS: config.source + paths.assets + paths.mainJS
